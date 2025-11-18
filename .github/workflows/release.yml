@@ -2,7 +2,8 @@ prmissions:
   contents: write
 
 name: Build obsidian plugin
-
+env:
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
 on:
   push:
     # Sequence of patterns matched against refs/tags
@@ -16,4 +17,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ophidian-lib/build@v1
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
