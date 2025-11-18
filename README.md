@@ -1,6 +1,6 @@
-dynamic-previews-native-hover-sidebar
 
-# Dynamic Previews – Native, Hover, Sidebar
+
+# Dynamic Preview Editors – Native, Hover, Sidebar
 
 Preview your links in your sidebar, the hover editor, or native preview based on their type. This is a fork of [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor) designed for more efficient reference viewing and (as close as exists) inline editing of embeds.
 
@@ -61,16 +61,16 @@ Embed a note block → hover it → edit in sidebar → changes sync immediately
 
 ### BRAT
 
-Install the BRAT plugin and put in XXXXXXXXXX 
+Install the BRAT plugin and put in https://github.com/kobuster/dynamic-preview-editors 
 
 
 ### Manual Installation
-1. Download `main.js`, `manifest.json`, `styles.css` from [latest release](https://github.com/kobuster/dynamic-previews-native-hover-sidebar/releases)
+1. Download `main.js`, `manifest.json`, `styles.css` from [latest release](https://github.com/kobuster/dynamic-preview-editors/releases)
 2. Create folder `VaultFolder/.obsidian/plugins/dynamic-previews-native-hover-sidebar/`
 3. Copy files to folder
 4. Reload Obsidian
 5. Enable in Settings → Community Plugins
-## ⚙️ Configuration
+## Configuration
 
 Open Settings → Sidebar Hover to configure:
 
@@ -83,10 +83,10 @@ Open Settings → Sidebar Hover to configure:
 
 This plugin is a fork of [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor) by [@nothingislost](https://github.com/nothingislost). The original Hover Editor pioneered floating preview windows in Obsidian - this fork adds sidebar mode and per-link-type configuration.
 
-Licensed under MIT License. - see [LICENSE](https://github.com/kobuster/dynamic-previews-native-hover-sidebar/LICENSE.md) file.
+Licensed under MIT License. - see [LICENSE](https://github.com/kobuster/dynamic-preview-editors/LICENSE.md) file.
 
 Original Hover Editor © nothingislost  
-Dynamic Previews © Kobuster
+Dynamic Preview Editors © Kobuster
 
 ## ☕ Support Development
 
@@ -100,10 +100,8 @@ Contributions help motivate me to maintain and improve this plugin. Who am I kid
 
 ## 🐛 Bug Reports & Feature Requests
 
-Found a bug or have an idea? [Open an issue](https://github.com/kobuster/dynamic-previews-native-hover-sidebar)
-
+Found a bug or have an idea? [Open an issue](https://github.com/kobuster/dynamic-preview-editors/issues)
 
 ## 📝 Changelog
 
-See [RELEASES](https://github.com/kobuster/dynamic-previews-native-hover-sidebar
-/releases) for version history.
+See [RELEASES](https://github.com/kobuster/dynamic-preview-editors/releases) for version history.
