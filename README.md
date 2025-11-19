@@ -1,6 +1,6 @@
 
 
-# Dynamic Preview Editors – Native, Hover, Sidebar
+# Preview Modes – Obsidian Native, Hover Editor, Sidebar Leaf
 
 Preview links in the sidebar, the hover editor, or native preview based on their type. This is a fork of [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor) designed for more efficient reference viewing and (as close as exists) inline editing of embeds.
 
@@ -61,11 +61,11 @@ Embed a note block → hover it → edit in sidebar → changes sync immediately
 
 ### BRAT
 
-Install the BRAT plugin and put in https://github.com/kobuster/dynamic-preview-editors 
+Install with BRAT should work soon. 
 
 
 ### Manual Installation
-1. Download `main.js`, `manifest.json`, `styles.css` from [latest release](https://github.com/kobuster/dynamic-preview-editors/releases)
+1. Download `main.js`, `manifest.json`, `styles.css` from [latest release](https://github.com/kobuster/Obsidian-preview-modes/releases)
 2. Create folder `VaultFolder/.obsidian/plugins/dynamic-previews-native-hover-sidebar/`
 3. Copy files to folder
 4. Reload Obsidian
@@ -84,7 +84,7 @@ Open Settings → Sidebar Hover to configure:
 
 This plugin is a fork of [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor) by [@nothingislost](https://github.com/nothingislost). The original Hover Editor pioneered floating preview windows in Obsidian - this fork adds sidebar mode and per-link-type configuration.
 
-Licensed under MIT License. - see [LICENSE](https://github.com/kobuster/dynamic-preview-editors/LICENSE.md) file.
+Licensed under MIT License. - see [LICENSE](https://github.com/kobuster/obsidian-preview-modes/LICENSE.md) file.
 
 Original Hover Editor © nothingislost  
 Dynamic Preview Editors © Kobuster
@@ -101,8 +101,11 @@ Contributions help motivate me to maintain and improve this plugin. Who am I kid
 
 ## 🐛 Bug Reports & Feature Requests
 
-Found a bug or have an idea? [Open an issue](https://github.com/kobuster/dynamic-preview-editors/issues)
+Found a bug or have an idea? [Open an issue](https://github.com/kobuster/Obsidian-preview-modes/issues)
+
+This plugin is in early stages and I am aware of a large number of bugs. Basic implementation of the Sidebar works, but has some non-breaking issues that are easily fixed once I find the time. Hover editor works as normal. 
 
 ## 📝 Changelog
 
-See [RELEASES](https://github.com/kobuster/dynamic-preview-editors/releases) for version history.
+See [RELEASES](https://github.com/kobuster/Obsidian-preview-modes/releases) for version history.
+
